@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+.input-container {
+  display: flex;
+  border: 2px solid #9cc001;
+  border-radius: 28px;
+  overflow: hidden;
+}
+
+.input-container input {
+  flex: 1;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  padding: 12px;
+  font-family: "Roboto", san-sarif;
+}
+
+.input-container .number {
+  width: 80px;
+}
+
+.input-container .divider {
+  width: 1px;
+  background: grey;
+}
+
+@media (max-width: 600px) {
+  .input-container {
+    flex-direction: column;
+  }
+
+  .input-container .number {
+    width: fit-content;
+  }
+
+  .input-container .divider {
+    width: 20px;
+    height: 1px;
+  }
+}

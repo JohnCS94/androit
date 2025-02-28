@@ -1,0 +1,24 @@
+.buttons {
+  display: flex;
+  position: relative;
+  border-radius: 20px;
+  background-color: #e0e0e0;
+  overflow: hidden;
+  margin: 28px;
+  width: fit-content;
+}
+
+.toggle-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.toggle-button.active {
+  background-color: #c1ee00;
+  color: black;
+}
